@@ -1,6 +1,5 @@
 # Atividade 02 - Comparação Prática entre Protocolos de API: REST vs GraphQL
 
-> **Disciplina:** APIs e Protocolos de Comunicação  
 > **Domínio:** Rede Social Simplificada (`Usuario`, `Perfil`, `Post`, `Comentario`, `Curtida`, `Seguidor`)  
 > **Protocolos Implementados:** **REST** e **GraphQL**  
 > **Linguagem / Runtime:** Node.js (JavaScript ES Modules)  
@@ -11,7 +10,7 @@
 
 Este projeto foi desenvolvido para atender aos requisitos da **Atividade 02**, cujo objetivo é **sentir na prática a diferença entre dois protocolos ao expor o mesmo domínio e saber quando cada um serve**.
 
-Para isso, implementamos uma **Rede Social Simplificada** expondo as mesmas 6 entidades de domínio em dois dos protocolos mais importantes da arquitetura de software moderna:
+Para isso, implementei uma **Rede Social Simplificada** expondo as mesmas 6 entidades de domínio em dois dos protocolos mais importantes da arquitetura de software moderna:
 
 1. **REST (Representational State Transfer):** Arquitetura orientada a recursos, verbos HTTP semânticos, múltiplos endpoints e códigos de status HTTP padrão.
 2. **GraphQL:** Linguagem de consulta e manipulação em grafo, schema tipado (*SDL*), endpoint único (`/graphql`) e seleção granular de campos pelo cliente.
