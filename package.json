@@ -1,0 +1,29 @@
+{
+  "name": "rede-social-api-protocolos",
+  "version": "1.0.0",
+  "description": "Atividade 02 - Comparação prática entre REST e GraphQL em uma rede social simplificada",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test:rest": "node scripts/test-rest.js",
+    "test:graphql": "node scripts/test-graphql.js",
+    "test:all": "node scripts/test-all.js"
+  },
+  "keywords": [
+    "rest",
+    "graphql",
+    "api",
+    "protocolos",
+    "redes-sociais"
+  ],
+  "author": "Aluno",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0",
+    "graphql-yoga": "^5.10.9"
+  }
+}
